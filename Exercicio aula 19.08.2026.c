@@ -22,7 +22,7 @@ int main()
     scanf("%lf", &largura);
     double tinta = (altura*largura*2) / 5;
     double custo = tinta*r;
-    printf("Quantidade necessária para dar 2 de mão na parede: L%lf", tinta);
-    printf("\nCusto total: R$%lf", custo);
+    printf("Quantidade necessária para dar 2 de mão na parede: L%.2lf \n", tinta);
+    printf("Custo total: R$%.2lf", custo);
     return 0;
 }
